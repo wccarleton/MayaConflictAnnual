@@ -1,0 +1,10 @@
+Request input parameters
+========================
+
+BoundingBox = [-92.0, 16.0, -88.0, 19.0]
+Dataset = /badc/cru/metadata/cdmls/cru_ts_4.04_gridded.xml
+EndDateTime = 2019-12-16T00:00:00
+OutputFormat = csv
+SplitOutputFilesIntoTimeChunks = year
+StartDateTime = 1901-01-16T00:00:00
+Variable = tmp

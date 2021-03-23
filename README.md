@@ -12,9 +12,6 @@ The R scripts contained in this repository are intended for replication efforts 
 ### R
 This analysis described in the associated manuscript was performed in R. Thus, you may need to download the latest version of [R](https://www.r-project.org/) in order to make use of the scripts described below.
 
-### Nimble
-This project made use of a Bayesian Analysis package called [Nimble](https://r-nimble.org/). See the Nimble website for documentation and a tutorial. Then, refer to the R scripts in this repo.
-
 ## Contact
 
 [ORCID](https://orcid.org/0000-0001-7463-8638) |
