@@ -13,7 +13,7 @@ Studies published over the last decade have reached contrasting conclusions rega
 The R scripts contained in this repository are intended for replication efforts and to improve the transparency of research. They are, of course, provided without warranty or technical support. That said, questions about the code can be directed to me, Chris Carleton, at ccarleton@protonmail.com.
 
 ### R
-This analysis described in the associated manuscript was performed in R. Thus, you may need to download the latest version of [R](https://www.r-project.org/) in order to make use of the scripts described below.
+This analysis described in the associated manuscript was performed in R. Thus, you may need to download the latest version of [R](https://www.r-project.org/) in order to make use of the scripts contained in this repo. The core analysis can be replicated by running "nimblePois.R", which requires the [nimble](r.nimble.org) R package.
 
 ## Contact
 
