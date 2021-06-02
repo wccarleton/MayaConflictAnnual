@@ -1,6 +1,6 @@
 ---
 title: "Comparing the Cariaco SST reconstruction to CRU data from 1900--2009"
-output: pdf_document
+output: latex_document
 author: "W. Christopher Carleton"
 ---
 
@@ -38,7 +38,7 @@ cru <- cru[apply(cru,1,function(x)all(!is.na(x))),]
 head(cru)
 ```
 
-Next, we spatially averaged the CRU temperature data for the region and created two temperature time series spanning the overlap between the CRU data and the Cariaco SST reconstruction (i.e, 1901--2008). For one time series, we averaged the monthly data to produce an annual average temperature record. For the other, we included only the months corresponding to the summer SST record, namely March, April, and May, which produced an annual summer average record.
+Next, we spatially averaged the CRU temperature data for the region and created two temperature time series spanning the overlap between the CRU data and the Cariaco SST reconstruction (i.e, 1901--2008). For one time series, we averaged the monthly data to produce an annual average temperature record. For the other, we included only the months corresponding to the summer SST record, namely June, July, and August, which produced an annual summer average record.
 
 To create the time-series, we first need to generate spatial averages. The rows in the cru matrix each correspond to a latitude in the gridded dataset while the columns correspond to longitudes. There are 6 x 8 of these grid squares in our selected study area. Since the raw data are monthly temperatures, there are 12 of these 6-row chunks per year. Each chunk needs to be averaged to produce the spatial average. So, we will walk over the cru matrix in groups of 6 rows and calculate the average of all grid-cell values in that chunk (i.e., an average of all the values in each 6 x 8 grid):
 
@@ -182,4 +182,12 @@ ggarrange(p1,p2,
     ncol=1,
     nrow=2,
     align="v")
+```
+
+## Effects
+We can also display the regression results numerically:
+
+```{r}
+summary(glm_annual)
+summary(glm_summer)
 ```
