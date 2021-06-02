@@ -10,6 +10,12 @@ Studies published over the last decade have reached contrasting conclusions rega
 
 [Corresponding Author: Prof. Mark Collard](https://www.sfu.ca/archaeology/faculty/collard.html)
 
+## Repo DOI
+
+The accepted version of the associated paper refers to the state of this repo at the first release, which has been archived with Zenodo (CERN) and has the following DOI:
+
+[![DOI](https://zenodo.org/badge/350286462.svg)](https://zenodo.org/badge/latestdoi/350286462)
+
 ## Contact
 
 [ORCID](https://orcid.org/0000-0001-7463-8638) |
