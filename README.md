@@ -9,6 +9,11 @@ Studies published over the last decade have reached contrasting conclusions rega
 
 [Corresponding Author: Prof. Mark Collard](https://www.sfu.ca/archaeology/faculty/collard.html)
 
+## Repo DOI
+The accepted version of the associated paper refers to the state of this repo at the first release, which has been archived with Zenodo (CERN) and has the following DOI:
+
+[![DOI](https://zenodo.org/badge/350286462.svg)](https://zenodo.org/badge/latestdoi/350286462)
+
 ## Software
 The R scripts contained in this repository are intended for replication efforts and to improve the transparency of research. They are, of course, provided without warranty or technical support. That said, questions about the code can be directed to me, Chris Carleton, at ccarleton@protonmail.com.
 
