@@ -1,5 +1,13 @@
 # Annual Classic Maya Conflict and Climate Change
 
+## Overview
+This repo contains the data and code used for the study presented in the following paper:
+
+[*Rainfall, temperature, and Classic Maya conflict: A comparison of hypotheses using Bayesian time-series analysis*]()
+
+## Abstract
+Studies published over the last decade have reached contrasting conclusions regarding the impact of climate change on conflict among the Classic Maya (ca. 250-900 CE). Some researchers have argued that rainfall declines exacerbated conflict in this civilisation. However, other researchers have found that the relevant climate variable was increasing summer temperatures and not decreasing rainfall. The goal of the study reported here was to test between these two hypotheses. To do so, we collated annually-resolved conflict and climate data, and then subjected them to a recently developed Bayesian method for analysing count-based times-series. The results indicated that increasing summer temperature exacerbated conflict while annual rainfall variation had no effect. This finding not only has important implications for our understanding of conflict in the Maya region during the Classic Period. It also contributes to the ongoing discussion about the likely impact of contemporary climate change on conflict levels. Specifically, when our finding is placed alongside the results of other studies that have examined temperature and conflict over the long term, it is clear that the impact of climate change on conflict is context dependent.
+
 ## Contact
 
 [ORCID](https://orcid.org/0000-0001-7463-8638) |
